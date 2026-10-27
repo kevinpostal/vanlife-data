@@ -1,0 +1,57 @@
+# Cloud build for VANLIFE shards. Canonical copy: kevinpostal/vanlife data/ci/vanlife-data-build.yml, pushed here by
+# `make -C data ci-push`. Dispatched by pi-gate's `vanlife-etl ship`; no push/pull_request triggers, so forks never run it.
+# sync-trails runs on pi-gate with the trail-catalog artifact: Cloudflare challenges these runners' requests to Supabase.
+name: build
+run-name: publish ${{ inputs.request_id }}
+on:
+  workflow_dispatch:
+    inputs:
+      asset: {description: "build-input-*.tar in kevinpostal/vanlife release etl-cache", required: true, type: string}
+      request_id: {description: "set by vanlife-etl ship", required: true, type: string}
+permissions:
+  contents: read
+concurrency:
+  group: build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HC: https://hc-ping.com/${{ secrets.HC_PING_KEY }}/vanlife-build
+      PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+      VANLIFE_CACHE: ${{ github.workspace }}/in/cache
+      VANLIFE_OUT: ${{ github.workspace }}/out
+    steps:
+      - run: curl -fsS -m 15 --retry 3 -o /dev/null "$HC/start" || true
+      - name: Download build input
+        env:
+          GH_TOKEN: ${{ secrets.VANLIFE_REPO_TOKEN }}
+        run: |
+          gh release download etl-cache -R kevinpostal/vanlife -p "${{ inputs.asset }}" -O input.tar
+          mkdir in && tar -xf input.tar -C in && rm input.tar
+          cat in/bundle.json
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen --no-dev
+        working-directory: in/code
+      - run: uv run vanlife-etl build
+        working-directory: in/code
+      - name: Publish to gh-pages
+        working-directory: in/code
+        env:
+          PAGES_DEPLOY_KEY: ${{ secrets.PAGES_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          curl -fsSL https://api.github.com/meta | python3 -c 'import json,sys; print("\n".join("github.com " + k for k in json.load(sys.stdin)["ssh_keys"]))' >> ~/.ssh/known_hosts
+          printf '%s\n' "$PAGES_DEPLOY_KEY" > "$RUNNER_TEMP/pages_key" && chmod 600 "$RUNNER_TEMP/pages_key"
+          PAGES_SSH_KEY="$RUNNER_TEMP/pages_key" uv run vanlife-etl publish
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trail-catalog
+          path: in/cache/trail_catalog/catalog.json.gz
+          retention-days: 1
+          if-no-files-found: error
+      - if: always()
+        run: curl -fsS -m 15 --retry 3 -o /dev/null "$HC/${{ job.status == 'success' && '0' || 'fail' }}" || true
