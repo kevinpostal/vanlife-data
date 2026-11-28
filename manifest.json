@@ -1,0 +1,324 @@
+{
+ "schema": 1,
+ "built_at": "2026-11-28T12:33:00Z",
+ "shards": {
+  "AK": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-AK.sqlite.gz",
+   "bytes": 5436374,
+   "sha256": "56bd3487dc57e46e88994115cf07ac2e047ddc4b012a09189d118a90ca9833f6",
+   "count": 26345
+  },
+  "AL": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-AL.sqlite.gz",
+   "bytes": 3905512,
+   "sha256": "24c107db0667ca5329c43ee7d6c14e2af951f0aa914cffaeae28c62c53e574b4",
+   "count": 28200
+  },
+  "AR": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-AR.sqlite.gz",
+   "bytes": 3094414,
+   "sha256": "d90217d46fa82e35d9fc2e790ed9c5a0ca7194ae9f97a137372cae5cdcbbe1fb",
+   "count": 20513
+  },
+  "AZ": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-AZ.sqlite.gz",
+   "bytes": 7151430,
+   "sha256": "dddc78b16d1b0309c7b5a500ab3729ff9689f9f3f9f76699b3cff9da563b1aa7",
+   "count": 44893
+  },
+  "CA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-CA.sqlite.gz",
+   "bytes": 28178377,
+   "sha256": "c41979eeb51f3bde8ec10210643b3d6a11cebbf6f355dd1eaa841ebca260f729",
+   "count": 200631
+  },
+  "CO": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-CO.sqlite.gz",
+   "bytes": 9751884,
+   "sha256": "e8db3eace160f75f08c394ebbad0aafc83d79f4e9e06aeb12529c48f4dc00d9e",
+   "count": 57120
+  },
+  "CT": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-CT.sqlite.gz",
+   "bytes": 2395942,
+   "sha256": "15e9d6d8527b6dadf4a822119937d583920a67f527432628454933c67ef3c14b",
+   "count": 19691
+  },
+  "DC": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-DC.sqlite.gz",
+   "bytes": 781182,
+   "sha256": "b85cb828665cc2a0d761b6159f8c4441f119e39922c1de0481ef522c587d2ef9",
+   "count": 5213
+  },
+  "DE": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-DE.sqlite.gz",
+   "bytes": 665071,
+   "sha256": "44eff503099d7bc0a5db17eeae489c776cc4d759acfc40f7cd8707c9189f994a",
+   "count": 4742
+  },
+  "FL": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-FL.sqlite.gz",
+   "bytes": 11947710,
+   "sha256": "e23bb8ae05d1e523590d6bd41b094d87f2492aacfe682c61cc2f832207217466",
+   "count": 90346
+  },
+  "GA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-GA.sqlite.gz",
+   "bytes": 7220888,
+   "sha256": "e1671aaeee7fd135667238a6e0369417906e8852e1a08b551c861b9a04476020",
+   "count": 54514
+  },
+  "HI": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-HI.sqlite.gz",
+   "bytes": 1007667,
+   "sha256": "d97ff3c3dbeb73c09c047f95515c750d593470d0dcde3e504c1ab457b7beb21e",
+   "count": 7991
+  },
+  "IA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-IA.sqlite.gz",
+   "bytes": 3465618,
+   "sha256": "e856324d6160985ce0520113c06bfe9da72f29e1f7e7ba6ae0744ee704247f6c",
+   "count": 23950
+  },
+  "ID": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-ID.sqlite.gz",
+   "bytes": 5215777,
+   "sha256": "33efa181b8afedb33ca6b8333d83e7c5e31e54a74e9154a7349b52c08749697c",
+   "count": 26095
+  },
+  "IL": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-IL.sqlite.gz",
+   "bytes": 8150766,
+   "sha256": "ceb4c6bea6e05ad918b550e208a50807f434f5df9571ee7303dbeb4dc926e743",
+   "count": 62637
+  },
+  "IN": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-IN.sqlite.gz",
+   "bytes": 4755953,
+   "sha256": "dd444479ce291aa438c2625e00993cf2215cd39958b64c2d2e5c3b37676a78df",
+   "count": 36108
+  },
+  "KS": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-KS.sqlite.gz",
+   "bytes": 3039523,
+   "sha256": "893c1237f86395fa7f905294652e40c6ce084ef8e83327a70e93693657212e85",
+   "count": 19572
+  },
+  "KY": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-KY.sqlite.gz",
+   "bytes": 3639461,
+   "sha256": "c3112f37d6352cd33de68ebedac0bf89a4f0670ed158fa1f3749a982203bdc9b",
+   "count": 25707
+  },
+  "LA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-LA.sqlite.gz",
+   "bytes": 2891418,
+   "sha256": "5a6ab81d416dad7c91847665bdc0fc232b1e64f1d77a1ff58af1b86b60d0cfbc",
+   "count": 22088
+  },
+  "MA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MA.sqlite.gz",
+   "bytes": 5321643,
+   "sha256": "f31cf138698adaea43700dde957e98b39c7dfcbf2ce5772c80ab22dcff193be6",
+   "count": 41818
+  },
+  "MD": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MD.sqlite.gz",
+   "bytes": 4273400,
+   "sha256": "1264dce0d0eb92ec99623b06cc6091a6a63419f05a7ca430970383e0741b2019",
+   "count": 31996
+  },
+  "ME": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-ME.sqlite.gz",
+   "bytes": 2924272,
+   "sha256": "612ef0122bfcc75d4f09d8973cc2c67f84f3b12fe1bbf279c898f194f5d0d5c0",
+   "count": 17663
+  },
+  "MI": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MI.sqlite.gz",
+   "bytes": 10081725,
+   "sha256": "caad57b8e8eae07d9c4c6eea6b8137f68112fd6305ec2bb4265f14297559b35e",
+   "count": 71117
+  },
+  "MN": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MN.sqlite.gz",
+   "bytes": 6820464,
+   "sha256": "c6c0d83c5ad7343d6ad27015542d3699cb8ebada51d74be4a94fe7b8f2573988",
+   "count": 44447
+  },
+  "MO": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MO.sqlite.gz",
+   "bytes": 5647452,
+   "sha256": "66b0fc96867b3afad3c67a45649a60e60a5aaa7e3cad5c44600d5fb0318466ea",
+   "count": 39528
+  },
+  "MS": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MS.sqlite.gz",
+   "bytes": 2108485,
+   "sha256": "c4be839ff2cdd70f77c1b33692349ef48e095913a4febc6d531c16c157c832a5",
+   "count": 14856
+  },
+  "MT": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-MT.sqlite.gz",
+   "bytes": 5031773,
+   "sha256": "3a95c74f2891715d707e71391d0e7e37f76460e9f7ef2886cf5f324d4b4c825f",
+   "count": 25838
+  },
+  "NC": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NC.sqlite.gz",
+   "bytes": 8634535,
+   "sha256": "07b9b6d70dd7688a0567aeeaa1df33e6d3f3279ed93e6e550f0a590da384e1a4",
+   "count": 61627
+  },
+  "ND": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-ND.sqlite.gz",
+   "bytes": 1182564,
+   "sha256": "d62248c73d273ec722663cefd81bcb7191be752f927d62fabb82037ba0f67a1a",
+   "count": 6323
+  },
+  "NE": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NE.sqlite.gz",
+   "bytes": 2284979,
+   "sha256": "af4b41641bebeadc8ed8e916734b14fee500b171af02167228064522176d5999",
+   "count": 14702
+  },
+  "NH": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NH.sqlite.gz",
+   "bytes": 2471848,
+   "sha256": "3fa7d1f035f8e4d3cad32694872691c5be7f7c7a443be0f13f07058130b38a2b",
+   "count": 16020
+  },
+  "NJ": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NJ.sqlite.gz",
+   "bytes": 5049231,
+   "sha256": "cc4d70373e224f7be4ec64f20021ae51c0c7bd6a22bd170a4da4d6c4ffe8e2d4",
+   "count": 40218
+  },
+  "NM": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NM.sqlite.gz",
+   "bytes": 3769595,
+   "sha256": "0b1a640ef0c88de4f75a326a7f48ed9d98d45df7c545d07cf10588371664d648",
+   "count": 21614
+  },
+  "NV": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NV.sqlite.gz",
+   "bytes": 2922976,
+   "sha256": "c65d938c1c0470990e9ee6055b45c2fa42a751eba69a81c08140bcc97c02ba6e",
+   "count": 19951
+  },
+  "NY": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-NY.sqlite.gz",
+   "bytes": 13686803,
+   "sha256": "b3f67cc98ebcf0cd638a87bbd88dbafaa686023cc6df9cf2b9089c859cf26c79",
+   "count": 103139
+  },
+  "OH": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-OH.sqlite.gz",
+   "bytes": 8293296,
+   "sha256": "f0ecbf3bdb5b7db399b8f42d6d76f773706b58d466ce4989f114c3048ffc8f9e",
+   "count": 65014
+  },
+  "OK": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-OK.sqlite.gz",
+   "bytes": 3324512,
+   "sha256": "9eeae42a62f79b174110dc8f9419132ccc9cca4feec5ebd0bd20ca8dce126903",
+   "count": 23432
+  },
+  "OR": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-OR.sqlite.gz",
+   "bytes": 8499468,
+   "sha256": "a9d90723236368ca5eafe06e1eff90e1ee9c01a8a5a9a2998503b6e9637b434c",
+   "count": 49114
+  },
+  "PA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-PA.sqlite.gz",
+   "bytes": 10293851,
+   "sha256": "38d70371d29095a7f630282d1520558e9100bab47b8ae9b335303161fc50716a",
+   "count": 76572
+  },
+  "PR": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-PR.sqlite.gz",
+   "bytes": 852241,
+   "sha256": "1110f1fdcfb190d8d31df694b987a48c6bd704e11e40167da7811fe3d6e1fd0b",
+   "count": 7548
+  },
+  "RI": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-RI.sqlite.gz",
+   "bytes": 758639,
+   "sha256": "30acaff4dbe2012a62f870ed41f0bbdc927ce83dd9c004f9112d66578b722493",
+   "count": 5743
+  },
+  "SC": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-SC.sqlite.gz",
+   "bytes": 4021778,
+   "sha256": "e88d99531e261353359495164c213d2a8d82dbefab0252f59a2d6ccb5353d1e6",
+   "count": 31206
+  },
+  "SD": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-SD.sqlite.gz",
+   "bytes": 1680348,
+   "sha256": "5404d75e0fc7b0b0d3e11622becd4ba6c5dc3dfa985793eccc70278ecb0c0c86",
+   "count": 9550
+  },
+  "TN": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-TN.sqlite.gz",
+   "bytes": 5361778,
+   "sha256": "a9a7953ee80241d42e89ff5ed8d34aabdd48a6c71acc6a449c6bf41436d95cd4",
+   "count": 37766
+  },
+  "TX": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-TX.sqlite.gz",
+   "bytes": 19780645,
+   "sha256": "a300b7133dda087b9bcb360a692b8466ca925855c7d9a31846db2a9a61ff228d",
+   "count": 139907
+  },
+  "UT": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-UT.sqlite.gz",
+   "bytes": 5916645,
+   "sha256": "23fc8338598e807cf3ae3034b394e66473bb6c63d530ae5b2e24cd8e8bed955a",
+   "count": 34100
+  },
+  "VA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-VA.sqlite.gz",
+   "bytes": 7344499,
+   "sha256": "a1dd0439ceafddea096461fa30116ea27ba0422c6d8202839efdd6a0ce41f838",
+   "count": 51648
+  },
+  "VT": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-VT.sqlite.gz",
+   "bytes": 1609458,
+   "sha256": "8ea89703cabfa0a5edc095efb1093da4c73819f7cf2614b762b91a3fa5f42398",
+   "count": 9732
+  },
+  "WA": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-WA.sqlite.gz",
+   "bytes": 10386974,
+   "sha256": "b2ecf348d601ede1bc8d20e919a1c31c2799f0f0d29ceba1dd8eaf426bbd71ca",
+   "count": 68886
+  },
+  "WI": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-WI.sqlite.gz",
+   "bytes": 6093589,
+   "sha256": "dff17a9781977440477a513ba6bba3d34ce170eb77a8607b68b7c8fa008de7d1",
+   "count": 40859
+  },
+  "WV": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-WV.sqlite.gz",
+   "bytes": 2195923,
+   "sha256": "64dd2890a255c85976a0ec0455a2670fd49cdfdbec75bf31ce364c186aacbec4",
+   "count": 14987
+  },
+  "WY": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-WY.sqlite.gz",
+   "bytes": 2843702,
+   "sha256": "bb080cc8034b4262f37c57661639dc11c716a215b8f5cacc992c85043c5d7cd7",
+   "count": 13560
+  },
+  "US": {
+   "url": "https://kevinpostal.github.io/vanlife-data/shards/places-US.sqlite.gz",
+   "bytes": 7284711,
+   "sha256": "7936a2d1b42d32fb422a68e109d085131c09cca6ae7e6b6bf5bd8ff71af84e7e",
+   "count": 35016
+  }
+ }
+}
